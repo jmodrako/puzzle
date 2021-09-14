@@ -27,7 +27,7 @@ case class Arbitrage(
       }
   }
 
-  override def toString: _root_.java.lang.String = currencyChain.mkString(" -> ")
+  override def toString: String = currencyChain.mkString(" -> ")
 }
 
 case class Edge(
